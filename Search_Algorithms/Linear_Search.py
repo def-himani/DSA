@@ -1,3 +1,8 @@
+# LINEAR SEARCH #
+# BEST TIME COMPLEXITY: O(1)
+# WORST TIME COMPLEXITY: O(n)
+# AVERAGE CASE TIME COMPLEXITY: O(n)
+
 def linear_search(arr, target):
     for i in range(len(arr)):
         if(arr[i] == target):
